@@ -1,0 +1,96 @@
+div,img,p,i,span{
+    margin:0;
+    padding:0;
+}
+.feed{
+    width:470px;
+    height:560px;
+    overflow-y:auto;
+}
+.header{
+    position: relative;
+    width:100%;
+    height:60px;
+}
+.image{
+    position: absolute;
+    top:-10px;
+    left:-23px;
+    display: inline-block;
+}
+.image img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+}
+.username{
+    position: absolute;
+    left:66px;
+    top:17px;
+}
+.img-container{
+    height:350px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:100% 100%;
+}
+.footer{
+    margin-top:20px;
+    /* height:100px; */
+}
+.hreat{
+    width:30px;
+    height:30px;
+    text-align:center;
+    line-height: 30px;
+}
+.hreat i{
+    font-size: 25px;
+    cursor: pointer;
+}
+.likes {
+    margin:5px 0;
+    margin-bottom:5px !important;
+    font-size:20px;
+}
+.caption{
+    font-size:20px;
+}
+.caption span{
+    font-weight:600;
+}
+label{
+    display: inline-block;
+}
+input{
+    display: none;
+}
+.select-image{
+    width:100%;
+    height:350px;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center center;
+}
+.filter-container{
+    height:220px;
+    padding : 30px 10px;
+    white-space: nowrap;
+    overflow-x:scroll;
+}
+.caption-container{
+     height:210px;
+     display: flex;
+     align-items:center;
+     justify-content: center;
+}
+textarea {
+    width:100%;
+    border : 0;
+    font-size:18px;
+    padding:10px;
+    border-bottom:1px solid #ccc;
+}
+textarea:focus{
+    outline:0;
+}

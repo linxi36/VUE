@@ -1,0 +1,62 @@
+body,ul,li,p,div{
+    margin:0;
+    padding:0;
+}
+body{
+    background:rgb(219, 214, 214);
+}
+.app-phone{
+    position: relative;
+    margin:100px auto;
+    width:450px;
+    height:650px;
+    overflow: hidden;
+    background:#fff;
+}
+.phone-header ,.phone-footer{
+    height:40px;
+    background:#ddd;
+}
+.phone-header{
+    position: relative;
+    text-align: center;
+}
+.cancle-cta,.next-cta{
+    position: absolute;;
+    top:10px;
+    font-size:18px;
+    cursor: pointer;
+    color:rgb(100,100,200);
+}
+.cancle-cta{
+    left:10px;
+}
+.next-cta {
+    right:10px;
+}
+.phone-footer{
+    position: absolute;
+    bottom:0;
+    width:100%;
+}
+.phone-footer div{
+    width:40px;
+    height:40px;
+    text-align: center;
+}
+.phone-footer div i{
+    font-size:30px;
+    cursor: pointer;
+}
+.home-cta{
+    position: absolute;
+    left:10px;
+}
+.upload-cta{
+    position: absolute;
+    right:10px;
+}
+.logo {
+    width:40px;
+    height:40px;
+}
